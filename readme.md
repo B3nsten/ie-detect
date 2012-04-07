@@ -1,4 +1,4 @@
-Javascript IE Detection using conditional comments.
+## Javascript IE Detection using conditional comments.
 
 This script adds a class to the html element with the version number of ie.
 
