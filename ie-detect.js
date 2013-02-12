@@ -1,5 +1,6 @@
 (function() {
 	// get ie version return undefined for no ie
+	// https://gist.github.com/padolsey/527683
 	var ie = (function(){
 		var undef, version = 3, element = document.createElement('div'), test = element.getElementsByTagName('i');
 		while(element.innerHTML = '<!--[if gt IE ' + (++version) + ']><i></i><![endif]-->', test[0]);
